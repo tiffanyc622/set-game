@@ -67,7 +67,7 @@ public class SetGame {
 				backButton.addActionListener(new BackAction());
 				setBackground(Color.green);
 				try {
-					youWonImage = ImageIO.read(new File("youwon.gif"));
+					youWonImage = ImageIO.read(new File("images/youwon.gif"));
 				} catch (IOException e) {
 					System.err.println("ERROR: File not found - youwon.gif");
 					System.exit(1);

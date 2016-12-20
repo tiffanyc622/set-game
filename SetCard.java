@@ -31,7 +31,7 @@ public class SetCard {
 		fill = f;
 		num = n;
 		try {
-			image = ImageIO.read(new File(""+c+s+f+n+".gif"));
+			image = ImageIO.read(new File("images/"+c+s+f+n+".gif"));
 		} catch (IOException e) {
 			System.err.println("ERROR: File not found - " + c+s+f+n);
 			System.exit(1);
